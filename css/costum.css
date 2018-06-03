@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700');
+.gov-logo-home {
+    align-self: baseline;
+}
+body{
+    direction: ltr;
+    font-family: "Roboto Mono", Monaco, Consolas, "Courier New", monospace
+}
+.page-header{
+    margin: 0;
+    border: 0;
+    padding-bottom: 0;
+}
+.rd-navbar-wrap{
+    height: 190px !important;
+}
+ul.breadcrumbs-custom__path{
+    padding: 0;
+}
+@media (min-width: 992px) {
+    h2, .heading-2 {
+        font-size: 48px;
+        line-height: 1.16667;
+    }
+}
+.filter-tenders label:first-child{
+    width: 100%;
+    max-width: none;
+}
+ul#tenders-inner-page li{
+    padding: 0;
+}
+ul#tenders-inner-page li a{
+    cursor:pointer;
+    width: 100%;
+}
+.filter-tenders .aside-title{
+    background-color: #27348b;
+}
+.ui-to-top{
+    line-height: 38px !important;
+}
+#tenders-inner-page .nav-tabs > li > a{
+    border-radius: 0;
+    color: #fff;
+    padding: 10px 11px;
+
+}
+@media (max-width: 768px) {
+  .rowIntroduction{
+    padding: 20px;
+  }
+    .filter-container {
+        opacity: 1;
+        transition: all .2s ease-in-out;
+        visibility: visible;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    .col-md-3.filter-tenders h3 {
+        font-size: 18px;
+        display: block;
+    }
+}
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+}
+.nav > li > a:hover, .nav > li > a:focus{
+    background-color: #27348b;
+    color: #fff;
+}
+.filter-container .nav-tabs {
+    background-color: #27348b;
+}
+.nav-tabs > li > a{
+    border-radius: 0;
+    padding: 10px 11px;
+}
+.group-btn input[type=submit]:last-child{
+    border-left-width: 1px;
+}
+.three-in{
+    font-size:13px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+thead{
+    background: #27348b;
+}
+label.no_old_tenders{
+    font-size: 13px;
+}
+.btn, button, input[type=button], input[type=submit], input[type=reset]{
+    background-color: #27348b;
+}
+.link-block{
+    padding: 0 !important;
+}
+@media (max-width: 767px) {
+    .section-layout-1 .section-layout-aside > * {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@font-face {
+    font-family: sanspro;
+    src: url('../fonts/sourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: sanspro;
+}
+.blueColor{
+    color:#2743ca;
+}
+.rowIntroduction{
+    padding:100px;
+}
+.hrIntro{
+
+    width: 150px;
+    height: 3px;
+    background: #2d509e;
+border-left: solid 22px #fff;
+}
+.hrIntro1{
+
+    width: 50px;
+    height: 2px;
+    margin-top: 2px;
+    background: #2d509e;
+border-left: solid 22px #fff;
+}
+.hrIntro2{
+    width: 150px;
+    height: 2px;
+    margin-top: 2px;
+    background: #2d509e;
+    border-left: solid 14px #fff;
+}
+.hrIntro3{
+    width: 75px;
+    height: 2px;
+    margin-top: 2px;
+    background: #2d509e;
+    border-left: solid 30px #fff;
+}
+.pIntro{
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 22px;
+    /* border: solid 2px #0b23c2; */
+    padding: 70px;
+    box-shadow: 0 0 60px #fff;
+    background-color: transparent;
+    color:#ebebeb;
+}
+.forback{
+    background: url(../images/parallax-5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pIntroLeft{
+    min-width: 45vw;
+    margin-bottom: -25px;
+}
+.pIntroRight{
+    min-width: 45vw;
+    margin-bottom: -25px;
+}
+.pIntro:hover{
+    background: #3333;
+
+    box-shadow: 0 0 60px #333;
+}
+.forImgVision{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 60px #474747;
+}
+.pVision{
+    margin-left: -100px;
+    margin-top: 50px;
+    margin-top: 75px;
+    padding-left: 100px;
+}
+/*****textV1*****/
+
+.text_container {
+    z-index: 2;
+  }
+
+  .text_container, .svg_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .text_container span, .svg_container span {
+    position: relative;
+    font-size: 34px;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .svg_container {
+    z-index: 1;
+  }
+  .svg_container svg {
+    position: absolute;
+    width: 2px;
+    height: auto;
+    opacity: 0;
+  }
+  .svg_container svg.light {
+    opacity: 1;
+  }
+  .svg_container svg path {
+    stroke-width: 1.5;
+    stroke: #fff;
+  }
+
+  .imgPresn{
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 100;
+    border:solid 3px #2644cb;
+  }
+  .divImgBigMessage{
+      padding: 0 100px;
+    padding-top: 100px;
+  }
+  .divImgBigMessagetrans{
+      padding: 0;
+    padding-top: 100px;
+  }
+  .divImgBigMessage2{
+    margin: 0 100px;
+    border: solid 1px #2644cb;
+    padding: 20px;
+    border-top: none;
+    background: #f1f0f1d6;
+  }
+  .divImgBigMessage2trans{
+    margin:0;
+    padding-top: 50px;
+
+  }
+  .forPmessage{
+    padding-left: 90px;
+
+    color:#333;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight:bolder;
+  }
+  .forPmessagetop{
+    margin-top:-15px;
+  }
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #2644cb;
+    margin-left: 53px;
+    margin-top: 26px;
+    position: relative;
+    transform: rotate(90deg);
+  }
+  .pVision{
+    box-shadow: none;
+    border: solid 1px #fff3;
+    border-left: solid 3px #2743ca;
+    transition: 0.4s;
+        background: #2743ca14;
+  }
+  .pVision:hover{
+    box-shadow: 0 0  20px #eee;
+    border: solid 1px #fff3;
+    border-left: solid 3px #2743ca;
+    transition: 0.4s;
+        background: #2743ca14;
+  }
+.forImgems{
+  width: 100%;
+  height : auto;
+}
+.adownload a{
+  color: #ebebeb;
+    font-size: 80px;
+    transition: 0.4s;
+}
+.adownload a:hover{
+  color: #2743ca8f;
+    margin-top: 10px;
+    transition: 0.4s;
+}
+.ptransLeft {
+    background: linear-gradient(-90deg, #2e11ff42, #ffff0000);
+transition: 0.4s;
+margin-left: -80px;
+}
+.ptransLeft:hover{
+    background: linear-gradient(-90deg, #2e11ff42, #ffff0000);
+    transition: 1s;
+}
+ .ptransRight {
+background: linear-gradient(90deg, #2e11ff42, #ffff0000);
+border: solid 1px #fff3;
+border-Right: solid 3px #2743ca;
+border-Left: solid 1px #fff3;
+transition: 0.4s;
+margin-left: 0;
+}
+.ptransRight:hover{
+background: linear-gradient(90deg, #2e11ff42, #ffff0000);
+border: solid 1px #fff3;
+border-Right: solid 3px #2743ca;
+border-Left: solid 1px #fff3;
+transition: 0.4s;
+}
+
+.overDivPLeft{
+  overflow: hidden;
+  min-width: 48vw;
+  padding: 10px;
+  margin-left: -100px;
+  padding-left: 100px;
+  padding-bottom: 45px;
+}
+.overDivPRight{
+  overflow: hidden;
+      min-width: 46vw;
+      padding: 10px;
+      margin-right: -100px;
+      padding-Right: 100px;
+      padding-bottom: 38px;
+}
+th,td{
+  border: solid 1px #fff3;
+  padding: 2px 10px;
+  color:#ccc;
+}
+tr:hover{
+  background-color: #44469170;
+}
+.pIntro {
+    background-color: #fffffff5;
+    color: #2743ca;
+    font-weight: bolder;
+    box-shadow: none;
+    border-bottom: solid 2px #2743ca ;
+}
+.pIntro:hover {
+    background-color: #fffffff5;
+    color: #2743ca;
+    font-weight: bolder;
+    box-shadow: none;
+    border-bottom: solid 2px #2743ca ;
+}
+.colorWhite{
+    color:#fff;
+}
+.colorBlue0{
+color: #1b3264;
+}
+.shadowfor0{
+text-shadow: 2px 2px 0px #9fd8fa;
+}
+.forImgems1{
+    width:100%;
+    height:auto;
+}
+.for12ems{
+    position:relative;
+}
+.fordownloadems {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    color: #DA251C;
+    font-size: 50px;
+    transition:0.4s;
+    margin-left: -25px;
+}
+.fordownloadems:hover {
+    top: 15px;
+    transition:0.4s;
+}
+@font-face {
+    font-family: 'arial';
+    src: url('../font/arial.ttf') format('truetype');
+}
+
+html {
+    font-family: arial;
+    font-family: 'arial';
+}
+body {
+    font-family: arial;
+    font-family: 'arial';
+}
+* {
+    font-family: arial;
+    font-family: 'arial';
+}
+.rd-navbar-static .rd-navbar-nav > li > a{
+    font-size: 12px;
+}
+.ptransLeft , .ptransLeft:hover{
+      background: linear-gradient(-90deg, #2e11ff42, #ffff0000);
+  border-bottom: none;
+}
+.ptransRight, .ptransRight:hover{
+background: linear-gradient(90deg, #2e11ff42, #ffff0000);
+border-bottom: none;
+color: #fff;
+}
+.ptransRight td , .ptransRight th{
+color: #fff;
+}
+.forImgLow{
+  width:100%;
+  height:auto;
+}
+.classrowpadding{
+  padding: 50px 0;
+}
+.colLow2{
+  padding-top:40px;
+}
+.colLow3{
+  padding-top:80px;
+}
+.outdivLow{
+  position: relative;
+}
+.indivLow{
+  position: absolute;
+  top:0;
+  color:#fff;
+  text-align: center;
+  background: #27348b8f;
+  padding: 20px 0;
+  width:100%;
+  font-size: 18px;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    height: 40%;
+    padding-top: 2%;
+}
+.indivLow:hover{
+  cursor: pointer;
+  padding-top: 20%;
+      height: 100%;
+transition: 0.4s;
+}
+.forunderImgDivLow{
+  background: #27348be8;
+padding: 20px;
+  color:#fff;
+}
+@media (max-width: 768px) {
+  .rowIntroduction{
+    padding: 20px;
+  }
+  .indivLow{
+  font-size: 14px;
+  }
+}
+.indivLow2{
+padding-top: 7%;
+}
+.indivLow2:hover{
+padding-top: 25%;
+}
+.low1{
+  height: 24%;
+}
+.low1:hover{
+padding-top: 42%;
+}
+.low2{
+height: 30%;
+}
+.low2:hover{
+    padding-top: 32%;
+}
+.low3{
+height: 21%;
+}
+.low3:hover{
+    padding-top: 46%;
+}
+.low4{
+  height: 26%;
+}
+.low4:hover{
+      padding-top: 40%;
+}
+.low5{
+      height: 30%;
+}
+.low5:hover{
+  padding-top: 36%;
+}
+.ptransLeft , .ptransRight{
+  padding: 40px !important;
+}
+.forbackems{
+  padding:0 150px;
+}
+@media (max-width: 768px) {
+  .divImgBigMessage{
+  padding: 0 !important;
+  padding-top: 20px !important;
+}
+.rd-navbar-wrap {
+    height: 0px !important;
+}
+.ptransLeft , .ptransRight{
+  padding: 20px !important;
+  margin:0 !important;
+}
+.ptransRight table{
+  width:100% !important;
+}
+.pIntro{
+  padding: 25px;
+    margin: 0;
+    margin-top:15px;
+}
+.divImgBigMessage2{
+  margin:0;
+}
+.forPmessagetop{
+  padding: 0;
+  text-align: justify;
+}
+.forbackems{
+  padding:0;
+}
+.fordownloadems {
+top:-20px;
+}
+.fordownloadems:hover {
+top:-20px;
+}
+div#load_screen > div#loading {
+    margin-left: 35vw;
+  }
+
+}
+.forgetbuttonToEqulother{
+  width:207px;
+}
